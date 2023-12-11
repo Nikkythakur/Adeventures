@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="index.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ADVENTURE</title>
+</head>
+<body>
+    <nav class="navbar">
+        <h1 class="logo">ADVENTURE</h1>
+        <ul class="nav-links">
+            <li class="active"><a href="index.html"></a>Home</li>
+            <li><a href="tours.html"></a>Tours</li>
+            <li><a href="signup.html"></a>Sign Up</li>
+            <li><a href="tours.html"></a>About</li>
+            <li class="ctn"><a href="signup.html"></a>Contact</li>
+        </ul>
+        <img src="menu-btn.png" alt="" class="menu-btn">
+    </nav>
+    <header>
+        <div class="header-content">
+            <h2>Explore The Colorful World</h2>
+            <div class="line"></div>
+            <p>This website allows you to connect with other sources and will guide you throughout your journey.</p>
+            <h1>A WONDERFUL GIFT</h1> 
+            <a href="signup.html" class="ctn">Learn More</a>
+        </div>
+    </header>
+    <section class="events">
+        <div class="title">
+            <h1>Upcoming Events</h1>
+            <div class="line"></div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <img src="img1.png" alt="">
+                <h4>Everest Camp Trek</h4>
+                <p>Mount Everest is a peak in the Himalaya mountain range, located between Nepal and Tibet, an autonomous region of China. It is considered the tallest point on Earth, standing at 8,849 meters (29,032 feet). The mountain was named after George Everest, a former Surveyor General of India, in the 19th century. The Tibetan name is Chomolungma, which means "Mother Goddess of the World," while the Nepali name is Sagarmatha, which has various meanings.</p>
+                <a href="https://www.adventureconsultants.com/treks/himalayan-treks/everest-basecamp-trek/" class="ctn">Learn More</a>
+            </div>
+            <div class="col">
+                <img src="img2.png" alt="">
+                <h4>K2 Trek</h4>
+                <p> K2, at 8,611 metres (28,251 ft) above sea level, is the second-highest mountain on Earth, after Mount Everest at 8,849 metres (29,032 ft). It lies in the Karakoram range, partially in the Gilgit-Baltistan region of Pakistan-administered Kashmir and partially in the China-administered Trans-Karakoram Tract in the Taxkorgan Tajik Autonomous County of Xinjiang.</p>
+                <a href="https://www.k2basecamptrekking.com/" class="ctn">Learn More</a>
+            </div>
+        </div>
+    </section>
+    <section class="explore">
+        <div class="explore-content">
+            <h1>EXPLORE THE WORLD</h1>
+            <div class="line"></div>
+            <p>Explore the world In your way Create memories that you won't forget You only live once so don't waste your time Please don't waste your time Take a risk, go outside Travel till you can't no more In your way, you will find your inner naked soul Explore the world In your way Create memories that you won't forget You only live once so don't waste your time Please don't waste your time ... Genius is the ultimate source of music knowledge, created by scholars like you who share facts and insight about the songs and artists they love.</p>
+            <a href="https://www.worldtravelguide.net/" class="ctn">Learn More</a>
+        </div>
+    </section>
+    <section class="tours">
+        <div class="row">
+            <div class="col content-col">
+                <h1>UPCOMING TOURS & DESTINATION</h1>
+                <div class="line"></div>
+                <p>As the world beckons, upcoming tours promise adventure and discovery. From the romantic streets of Paris to the vibrant markets of Tokyo, diverse destinations await eager travelers. Whether it's the iconic landmarks of New York or the serene landscapes of Bali, each journey unfolds a tapestry of experiences, creating memories that last a lifetime. Explore, wander, and embrace the allure of the unknown in the upcoming tours and destinations that await your exploration.</p>
+                <a href="https://www.makemytrip.com/holidays-india/delhi-travel-packages.html" class="ctn">Learn More</a>
+            </div>
+            <div class="col image-col">
+                <div class="image-gallery">
+                    <img src="img3.png" alt="">
+                    <img src="img4.png" alt="">
+                    <img src="img5.png" alt="">
+                    <img src="img6.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="footer">
+        <p>New Delhi-110048 | Phone: 011-2786527 | Email: toursandtravels@example.com</p>
+        <p>Copyright 2023 Outdoor Adventure</p>
+    </section>
+    <script>
+        const menubtn = document.querySelector('.menu-btn')
+        const navlinks = document.querySelector('.nav-links')
+
+        menubtn.addEventListener('click', ()=>{
+            navlinks.classList.toggle('mobile-menu')
+        })
+    </script>
+</body>
+</html>
